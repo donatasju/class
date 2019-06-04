@@ -1,0 +1,55 @@
+body {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.append {
+    border: 2px solid yellowgreen;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+    margin: 5px;
+    flex: 2;
+}
+
+h1,
+h2,
+h3 {
+    margin: 2px;
+}
+
+.input {
+    margin: 0 auto;
+}
+
+input {
+    width: 80%;
+    margin: 2px;
+    border: 1px solid #008CBA;
+}
+
+input[type=submit] {
+    border: none;
+    background: #008CBA;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 600px;
+        text-align: center;
+    }
+    .wrapper {
+        display: inline-block;
+    }
+    .append {
+        width: calc(100% - 10px);
+    }
+}

@@ -1,0 +1,177 @@
+header img {
+    width: 40%;
+    margin: 10px 30%;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 19px;
+}
+
+#home {
+    background-image: url("images/bike-rider.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#home span {
+    margin-top: 30px;
+}
+
+section {
+    min-height: 300px;
+}
+
+h1 span,
+h2 span {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+#home a,
+#about p,
+#services p {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 40px;
+    display: inline-block;
+}
+
+#about {
+    background-image: url("https://images5.alphacoders.com/360/360661.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+h2 span {
+    background-color: black;
+}
+
+#about div {
+    margin-left: 10px;
+}
+
+#about p {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+#services {
+    background-image: url("http://musicments.com/img/d_default/nature-backgrounds/nature-backgrounds-cool-5c7497012a3ab.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+#services div {
+    margin-left: 10px;
+}
+
+#services p {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+#services h2 {
+    text-align: right;
+}
+
+#contacts {
+    background-image: url("https://www.10wallpaper.com/wallpaper/1920x1200/1302/bright_and_sunny-Natural_landscape_HD_wallpaper_1920x1200.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+#contacts h2 {
+    text-align: center;
+}
+
+#contacts span {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#contacts ol {
+    color: white;
+    width: 40%;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    margin-left: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    header {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav a {
+        display: inline-block;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .header-wrapper {
+        background-color: black;
+    }
+    header nav a {
+        color: white;
+    }
+    .logo img {
+        height: 30px;
+        width: 150px;
+        margin: 0;
+    }
+    #home {
+        min-height: 350px;
+        padding: 10px;
+    }
+    h1 span {
+        padding: 20px;
+    }
+    .wrapper {
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #about div,
+    #services div {
+        margin-left: 0;
+        margin: 0 auto;
+    }
+    #about h2 {
+        text-align: left;
+    }
+    #contacts ol {
+        margin-left: 10%;
+        width: 12%;
+    }
+    footer {
+        padding: 40px;
+    }
+}

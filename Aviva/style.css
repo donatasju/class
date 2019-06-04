@@ -1,0 +1,103 @@
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+section .wrapper {
+    padding: 20px 0;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+}
+
+header img {
+    width: 200px;
+}
+
+nav {
+    text-align: right;
+    background-color: #D6B731;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#about,
+#contacts {
+    text-align: center;
+}
+
+#about a {
+    padding: 10px 50px;
+    color: white;
+    background-color: #D11E00;
+    border-radius: 10px;
+}
+
+#about h2 {
+    text-align: left;
+}
+
+#about p {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+#tables {
+    background-color: #021749
+}
+
+table {
+    width: 100%;
+}
+
+#tables h2 {
+    color: white;
+}
+
+table,
+th,
+td {
+    border: 1px solid red;
+    border-collapse: collapse;
+    color: white;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+#contacts h2,
+#contacts ul {
+    text-align: left;
+}
+
+footer {
+    background-color: #D6B731;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 10px;
+    color: white;
+}

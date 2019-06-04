@@ -1,0 +1,324 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #7d74b0;
+    padding: 10px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+    color: white;
+    font-size: 19px;
+}
+
+.logo span,
+.logo i {
+    color: white;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+.flex .image {
+    background: url("https://cdn.pixabay.com/photo/2017/11/06/20/09/abstract-2924732_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 10vh;
+    max-height: 20vh;
+}
+
+section:nth-child(even) {
+    background-color: #2a2f4a;
+    color: white;
+}
+
+section:nth-child(odd) {
+    background-color: #2e3450;
+    color: white;
+}
+
+button {
+    padding: 5px;
+    width: 30%;
+    border: 1px solid white;
+    background-color: #2e3450;
+    color: white;
+    cursor: pointer;
+}
+
+.underline {
+    display: inline-block;
+    width: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6)
+}
+
+#forma,
+#forma2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#forma form,
+#forma2 table {
+    margin-top: 20px;
+}
+
+input:not([type=submit]),
+textarea {
+    padding: 10px;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: rgba(212, 212, 255, 0.035);
+    border: none;
+}
+
+input[type=submit],
+input[type=reset] {
+    cursor: pointer;
+    padding: 1em;
+    border: 2px solid white;
+    color: white;
+}
+
+table,
+th,
+td {
+    text-align: center;
+    border-collapse: collapse;
+    border-width: 1px 0;
+    border-color: rgba(212, 212, 255, 0.035);
+    border-style: solid;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+tr:first-child {
+    background: rgba(125, 116, 176, 0.1);
+}
+
+table tr:nth-child(even) {
+    background-color: #2e3450;
+}
+
+table th {
+    background-color: #2e3450;
+}
+
+#antraForma {
+    padding-top: 30px;
+}
+
+#antraForma:not([type=submit]) {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+    background-color: #2a2f4a;
+}
+
+.border-bottom {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.submit {
+    display: inline;
+}
+
+input,
+textarea {
+    background-color: rgba(212, 212, 255, 0.035);
+}
+
+#antraForma input {
+    background-color: #2a2f4a;
+}
+
+.wrapper h3 {
+    margin-top: 5px;
+}
+
+.wrapper i {
+    padding-right: 10px;
+}
+
+.info {
+    padding: 30px 0;
+}
+
+.info>div {
+    padding: 20px;
+    border-bottom: 1px solid rgba(125, 116, 176, 0.1);
+}
+
+.info .icon,
+.info .text {
+    display: inline-block;
+}
+
+.info .icon {
+    background-color: rgba(125, 116, 176, 0.1);
+    height: 2.1em;
+    width: 2.1em;
+    vertical-align: top;
+    line-height: 2.1em;
+    text-align: center;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.info .text h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 1.4em;
+}
+
+.content-wrapper {
+    color: white;
+}
+
+section:not(.flex),
+.flex .image,
+.flex .tekstas {
+    padding: 40px 20px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #7d74b0;
+    padding: 20px;
+    color: white;
+}
+
+#forma h2 {
+    padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        background-color: #7d74b0;
+        position: fixed;
+        top: 0;
+        width: 99%;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+    nav a {
+        padding-right: 10px;
+    }
+    section:nth-child(1) {
+        background-color: #7d74b0;
+    }
+    section:not(.flex) {
+        padding: 18vh 10vw;
+    }
+    .logo span,
+    .logo i {
+        font-size: 19px;
+    }
+    .flex {
+        display: flex;
+    }
+    .flex .image {
+        flex: 3;
+        min-height: none;
+        max-height: none;
+    }
+    .flex .tekstas {
+        flex: 5;
+        padding: 18vh 6vh;
+    }
+    section,
+    .flex {
+        padding: 0;
+    }
+    section:nth-child(even) {
+        flex-direction: row-reverse;
+        flex: 5;
+    }
+    .content-wrapper {
+        flex: 1;
+    }
+    button:nth-child(odd) {
+        width: 15%;
+    }
+    .underline {
+        width: 70px;
+    }
+    .underlineEmp {
+        display: inline-block;
+        padding-right: 10px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    }
+    tr:first-child {
+        background-color: rgba(125, 116, 176, 0.1);
+    }
+    #forma h2 {
+        padding-bottom: 0;
+    }
+    table {
+        width: 100%;
+    }
+    table,
+    th,
+    td {
+        text-align: center;
+    }
+    #antraForma:not([type=submit]) {
+        flex-direction: row;
+    }
+    .submit {
+        display: flex;
+    }
+    #antraForma input {
+        margin-left: 10px;
+    }
+    #contacts .content-wrapper {
+        border-top: 1px solid rgba(125, 116, 176, 0.1);
+        border-bottom: 1px solid rgba(125, 116, 176, 0.1);
+        display: flex;
+        margin: 0 auto;
+    }
+    #contacts .content-wrapper>div:first-child {
+        padding-right: 40px;
+    }
+    #contacts .content-wrapper>div:last-child {
+        border-left: 1px solid rgba(125, 116, 176, 0.1);
+    }
+    #contacts .content-wrapper>div {
+        width: 50%;
+        box-sizing: border-box;
+        padding: 30px 0;
+    }
+    #contacts .info>:last-child {
+        border: 0;
+    }
+    form label {
+        text-transform: uppercase;
+    }
+}

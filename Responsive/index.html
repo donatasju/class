@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <title>Microsoft</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class="fab fa-microsoft"></i>
+            <span>Microsoft</span>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#email2">Contacts</a>
+        </nav>
+    </header>
+    <main>
+        <section id="landing">
+            <h1 class="border-bottom">Landing</h1>
+            <p>This can be a lot of text</p>
+        </section>
+        <section id="title">
+            <h2 class="underline">Hello</h2>
+            <p>This can be a lot of text</p>
+        </section>
+        <section class="flex">
+            <div class="image">
+            </div>
+            <div class="tekstas">
+                <h2 class="underline">Hello</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+        </section>
+        <section class="flex">
+            <div class="image">
+            </div>
+            <div class="tekstas">
+                <h2 class="underline">Hello</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </section>
+        <section class="flex">
+            <div class="image">
+            </div>
+            <div class="tekstas">
+                <h2 class="underline">Hello</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </section>
+
+        <section id="forma">
+            <div class="content-wrapper">
+                <h2 class="underlineEmp">Add Employee</h2>
+                <form>
+                    <label for="">Name:</label>
+                    <input type="text" id="name" placeholder="Vardenis">
+
+                    <label for="">E-mail:</label>
+                    <input type="text" id="email" placeholder="Email@gmail.com">
+
+                    <label for="">Phone number:</label>
+                    <input type="number" id="phone" placeholder="864312321">
+
+                    <span class="capchatext"></span>
+                    <input type="number" id="capcha">
+                    <input id="submit" type="submit" value="Prideti darbuotoja!">
+                </form>
+            </div>
+        </section>
+        <section id="forma2">
+            <div class="content-wrapper">
+                <h2 class="underlineEmp">Employee Table</h2>
+                <table id="table">
+                    <tr>
+                        <th>Vardas</th>
+                        <th>Email</th>
+                        <th>Telefonas</th>
+                    </tr>
+                    <tr>
+                        <td>Donatas</td>
+                        <td>donatas@jurkus.lt</td>
+                        <td>873284827</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section id="contacts">
+            <div class="content-wrapper">
+                <div class="contactsform">
+                    <form>
+                        <label for="">Full Name:</label>
+                        <input type="text" id="name" placeholder="Vardenis">
+
+
+                        <label for="">Email:</label>
+                        <input type="text" id="email" placeholder="Email">
+
+
+                        <label for="">Message:</label>
+                        <textarea name="message" id="message" cols="30" rows="5" placeholder="Your message goes here..."></textarea>
+
+                        <input type="submit" value="Send!">
+                        <input type="submit" value="Clear!">
+                </div>
+                </form>
+                <div class="info">
+                    <div id="email2">
+                        <div class="icon">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <span>donatas.jurkusl@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div id="phone2">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <span>96314314312</span>
+                        </div>
+                    </div>
+
+                    <div id="adress2">
+                        <div class="icon">
+                            <i class="fas fa-address-card"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Adress</h3>
+                            <span>Lithuania, Vilnius,<br> Antakalnis, V.fdasfdsa g. 28</span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        Copyright © Donatas Jurkus
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
